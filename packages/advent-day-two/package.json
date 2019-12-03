@@ -1,0 +1,25 @@
+{
+  "name": "@claydiffrient/advent-day-two",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Clay Diffrient <clay.diffrient@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/advent-day-two.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "test": "jest",
+    "start": "node ./lib/run.js"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "typescript": "^3.7.2"
+  }
+}
