@@ -22,6 +22,15 @@ function isValidPassword(password) {
     if (Math.max(...Object.values(counts)) < 2) {
         return false;
     }
+    let hasPairOfExactlyTwo = false;
+    Object.values(counts).forEach(c => {
+        if (c === 2) {
+            hasPairOfExactlyTwo = true;
+        }
+    });
+    if (!hasPairOfExactlyTwo) {
+        return false;
+    }
     return true;
 }
 exports.isValidPassword = isValidPassword;
