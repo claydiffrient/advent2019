@@ -1,0 +1,26 @@
+{
+  "name": "@claydiffrient/advent-day-five",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Clay Diffrient <clay.diffrient@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/advent-day-five.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "test": "jest",
+    "start": "node ./lib/advent-day-five.js"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "mock-stdin": "^1.0.0",
+    "typescript": "^3.7.2"
+  }
+}
