@@ -1,0 +1,30 @@
+{
+  "name": "@claydiffrient/advent-day-seven",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Clay Diffrient <clay.diffrient@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/advent-day-seven.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "test": "jest",
+    "start": "node ./lib/advent-day-seven.js"
+  },
+  "devDependencies": {
+    "@types/js-combinatorics": "^0.5.31",
+    "jest": "^24.9.0",
+    "mock-stdin": "^1.0.0",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "js-combinatorics": "^0.5.4"
+  }
+}
